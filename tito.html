@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<h1>Student Registration Form</h1>
+	<form>
+		<label for="name">Full Name:</label>
+		<input class="input-class" type="text" id="name" name="name" required>
+
+		<label for="email">Email:</label>
+		<input class="input-class" type="email" id="email" name="email" required>
+
+		<label for="course">Course:</label>
+		<select id="course" name="course" required>
+			<option value="">--Select Course--</option>
+			<option value="computer_science">Computer Science</option>
+			<option value="mathematics">Mathematics</option>
+			<option value="physics">Physics</option>
+			<option value="biology">Biology</option>
+		</select>
+
+		<label for="units">Units:</label>
+		<select id="units" name="units" required>
+			<option value="">--Select Units--</option>
+			<option value="introduction">Introduction to Programming</option>
+			<option value="algorithms">Algorithms and Data Structures</option>
+			<option value="database">Database Systems</option>
+			<option value="networking">Computer Networking</option>
+		</select>
+
+		<input type="submit" value="Register">
+	</form>
+</body>
+</html>
